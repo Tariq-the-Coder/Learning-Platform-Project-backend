@@ -13,8 +13,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-mongoose.connect("mongodb+srv://Tariq_ali:Tarik487221@cluster0.2gpln.mongodb.net/Learning?retryWrites=true&w=majority"
+mongoose.connect("mongodb+srv://Tariq_ali:Tarik487221@dreamshopping.8mmno.mongodb.net/Learning?retryWrites=true&w=majority"
     , {
+        
         useNewUrlParser: true,
         useUnifiedTopology: true,
         useCreateIndex: true,
