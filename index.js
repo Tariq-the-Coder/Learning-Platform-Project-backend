@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/Learning"
+mongoose.connect("mongodb+srv://Tariq_ali:Tarik487221@cluster0.2gpln.mongodb.net/Learning?retryWrites=true&w=majority"
     , {
         useNewUrlParser: true,
         useUnifiedTopology: true,
